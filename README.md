@@ -1,6 +1,6 @@
 # Hi, I'm Myriam Ait Said
 
-I’m a Data & AI engineering student with a rare multidisciplinary profile blending:
+I’m a Data & AI engineering student with a multidisciplinary profile blending:
 - **Deep Learning & Generative AI**
 - **Machine Learning engineering**
 - **Scientific computing & HPC**
@@ -16,7 +16,7 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 
 ---
 
-## 🧠 Areas of deep interest
+##  Areas of deep interest
 - Neural networks, deep learning, embeddings  
 - Generative AI (LLMs, multimodal models, reasoning)  
 - Representation learning & feature spaces  
@@ -29,9 +29,9 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 
 ---
 
-## ⚙️ Technical Skills
+##  Technical Skills
 
-### 🧬 **AI / Deep Learning / GenAI**
+###  **AI / Deep Learning / GenAI**
 - PyTorch · CNNs · GANs · autoencoders · embeddings  
 - Large Language Models (Gemini, multimodal prompting)  
 - Prompt engineering (code, text, multimodal)  
@@ -40,7 +40,7 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 - Computer vision & image-to-image models  
 - Data preprocessing · tensors · training loops  
 
-### 🧪 **Machine Learning & Data Science**
+###  **Machine Learning & Data Science**
 - scikit-learn · pandas · NumPy  
 - Clustering, classification, regression  
 - Feature engineering & model selection  
@@ -48,7 +48,7 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 - Ensemble learning · bagging · boosting  
 - Genetic algorithms & evolutionary strategies  
 
-### 📐 **Scientific Computing & HPC**
+###  **Scientific Computing & HPC**
 - PETSc · DMDA · KSP solvers  
 - MPI distributed computation  
 - PyMGRIT · multigrid-in-time algorithms  
@@ -56,7 +56,7 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 - Time coarsening strategies & convergence analysis  
 - Parallel solvers embedded in C++ frameworks  
 
-### 🧱 **Software Engineering**
+###  **Software Engineering**
 - C++ (scientific, object-oriented, numerical codes)  
 - Python (clean architecture, modular libs)  
 - CMake (advanced build systems)  
@@ -65,14 +65,14 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 - Git · GitHub · debugging & profiling  
 - Clean code & scalable project structure  
 
-### 🗄️ **Data Engineering & Big Data**
+### **Data Engineering & Big Data**
 - Spark (PySpark & Scala basics)  
 - Distributed computation & RDD/DataFrame paradigms  
 - PL/SQL · SQL (advanced queries, joins, analytics)  
 - MongoDB · NoSQL modelling · JSON schema design  
 - ETL pipelines & data processing logic  
 
-### 🔧 **Systems / Hardware / Misc**
+###  **Systems / Hardware / Misc**
 - Arduino (sensors, logic, microcontrollers)  
 - Bash scripting  
 - Cloud workflows & deployment basics  
@@ -80,7 +80,7 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 
 ---
 
-## 🚀 Projects & What I’ve built
+##  Projects & What I’ve built
 - **MGRITBox**: a modular parallel-in-time solver in Python using PETSc & PyMGRIT  
 - **Integration of MGRIT into MEF++** through a C++/pybind11 bridge  
 - **Deep learning experiments** (GANs, CNNs, image translation)  
@@ -93,7 +93,7 @@ to large-scale numerical algorithms, multigrid solvers, and high-performance com
 
 ---
 
-## 🌍 About me  
+##  About me  
 Curious, rigorous and passionate about advanced technologies.  
 I love both the **mathematical depth** of computation and the **creative power of AI**.  
 My journey combines science, engineering, cloud intelligence, and algorithmic thinking,  
@@ -101,5 +101,5 @@ with a strong desire to build systems that are intelligent, fast, and elegant.
 
 ---
 
-## 📫 Contact  
+##  Contact  
 LinkedIn: www.linkedin.com/in/myriam-ait-said-a87b23223
