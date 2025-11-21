@@ -102,4 +102,4 @@ with a strong desire to build systems that are intelligent, fast, and elegant.
 ---
 
 ## 📫 Contact  
-LinkedIn: *add your link*
+LinkedIn: www.linkedin.com/in/myriam-ait-said-a87b23223
