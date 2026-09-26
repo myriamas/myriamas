@@ -1,105 +1,96 @@
-# Hi, I'm Myriam Ait Said
+<div align="center">
 
-I’m a Data & AI engineering student with a multidisciplinary profile blending:
-- **Deep Learning & Generative AI**
-- **Machine Learning engineering**
-- **Scientific computing & HPC**
-- **Numerical methods & PDE solvers**
-- **Big data & distributed systems**
-- **Software engineering in C++/Python**
-- **Databases (SQL, PL/SQL, NoSQL)**
-- **Embedded systems & microcontrollers**
+# Myriam Ait Said
 
-Driven by curiosity, rigor, and passion, I explore the full spectrum of intelligence:
-from neural networks and modern AI systems  
-to large-scale numerical algorithms, multigrid solvers, and high-performance computation.
+### Data & AI Engineer
 
----
+**Data engineering · Applied AI · Scientific computing**
 
-##  Areas of deep interest
-- Neural networks, deep learning, embeddings  
-- Generative AI (LLMs, multimodal models, reasoning)  
-- Representation learning & feature spaces  
-- Numerical methods for PDEs  
-- Parallel-in-time algorithms (MGRIT)  
-- HPC (PETSc, MPI, distributed solvers)  
-- Data mining & ML pipelines  
-- Big data architectures (Spark, distributed compute)  
-- Systems design, APIs, cloud AI workflows  
+[Projects](#selected-projects) · [Experience](#experience) · [LinkedIn](https://www.linkedin.com/in/myriam-ait-said-a87b23223/)
 
----
+</div>
 
-##  Technical Skills
+I work on data systems and scientific software, with experience in enterprise data engineering at **Sopra Steria** and numerical computing research at **Université Laval**.
 
-###  **AI / Deep Learning / GenAI**
-- PyTorch · CNNs · GANs · autoencoders · embeddings  
-- Large Language Models (Gemini, multimodal prompting)  
-- Prompt engineering (code, text, multimodal)  
-- Model evaluation & reasoning workflows  
-- Vertex AI · Gemini API · SDK integration  
-- Computer vision & image-to-image models  
-- Data preprocessing · tensors · training loops  
+I enjoy the mathematical depth of scientific computing and the creative possibilities of AI. My interests meet in problems where the implementation matters as much as the idea: tracking changes in data, grounding an answer in source code, or checking a parallel computation against a sequential reference.
 
-###  **Machine Learning & Data Science**
-- scikit-learn · pandas · NumPy  
-- Clustering, classification, regression  
-- Feature engineering & model selection  
-- Performance metrics & interpretability  
-- Ensemble learning · bagging · boosting  
-- Genetic algorithms & evolutionary strategies  
+## Selected projects
 
-###  **Scientific Computing & HPC**
-- PETSc · DMDA · KSP solvers  
-- MPI distributed computation  
-- PyMGRIT · multigrid-in-time algorithms  
-- Numerical integration of PDEs (heat equation, diffusion)  
-- Time coarsening strategies & convergence analysis  
-- Parallel solvers embedded in C++ frameworks  
+### [Versioned address data with Apache Spark](https://github.com/myriamas/spark-bal-addresses)
 
-###  **Software Engineering**
-- C++ (scientific, object-oriented, numerical codes)  
-- Python (clean architecture, modular libs)  
-- CMake (advanced build systems)  
-- pybind11 (C++/Python bindings)  
-- API design & plugin interfaces  
-- Git · GitHub · debugging & profiling  
-- Clean code & scalable project structure  
+**Java · Apache Spark · Parquet**
 
-### **Data Engineering & Big Data**
-- Spark (PySpark & Scala basics)  
-- Distributed computation & RDD/DataFrame paradigms  
-- PL/SQL · SQL (advanced queries, joins, analytics)  
-- MongoDB · NoSQL modelling · JSON schema design  
-- ETL pipelines & data processing logic  
+Incremental processing of French Base Adresse Locale snapshots, with change tracking and historical reconstruction. The project explores how to represent successive versions of a dataset and recover its state at a given point in time.
 
-###  **Systems / Hardware / Misc**
-- Arduino (sensors, logic, microcontrollers)  
-- Bash scripting  
-- Cloud workflows & deployment basics  
-- Understanding of OS, kernels, tooling  
+Current improvements focus on update semantics, repeated runs and recovery after a failed execution.
 
----
+### [NoSQL storage and query cost modeling](https://github.com/myriamas/Big-data-structure-project)
 
-##  Projects & What I’ve built
-- **MGRITBox**: a modular parallel-in-time solver in Python using PETSc & PyMGRIT  
-- **Integration of MGRIT into MEF++** through a C++/pybind11 bridge  
-- **Deep learning experiments** (GANs, CNNs, image translation)  
-- **Generative AI applications** with Gemini & Vertex AI (evaluation, automation)  
-- **Big data processing** with Spark (structured pipelines)  
-- **ML pipelines** for supervised & unsupervised learning  
-- **Genetic algorithms implementations** for optimisation problems  
-- **Arduino embedded mini-systems** (sensors + logic)  
-- **Database models**: SQL, PL/SQL, NoSQL, MongoDB, denormalisation, storage estimates  
+**Python · Database design · Cost modeling**
 
----
+An academic project comparing denormalization and sharding strategies through an explicit model of storage and query costs. It examines how workload assumptions influence database design. The results are model estimates, not measurements from a deployed cluster.
 
-##  About me  
-Curious, rigorous and passionate about advanced technologies.  
-I love both the **mathematical depth** of computation and the **creative power of AI**.  
-My journey combines science, engineering, cloud intelligence, and algorithmic thinking,  
-with a strong desire to build systems that are intelligent, fast, and elegant.
+### [From news articles to knowledge graphs](https://github.com/myriamas/Web_data_mining)
 
----
+**NLP · RDF · DBpedia · Graph embeddings**
 
-##  Contact  
-LinkedIn: www.linkedin.com/in/myriam-ait-said-a87b23223
+An academic project exploring entity and relation extraction, knowledge graph construction and link prediction. It connects information extracted from text with structured representations and graph embedding methods.
+
+## Projects in preparation
+
+### Code-Assist
+
+**Python · FastAPI · React · TypeScript · Local language models**
+
+A personal project for understanding software repositories through code analysis and answers supported by source references. It combines deterministic analysis with optional language model assistance.
+
+Preparation for public release focuses on reproducible installation and evaluating whether answers are correct, supported by the cited code, and appropriately limited when evidence is missing.
+
+### MGRIT Engine
+
+**Python · NumPy · MPI · PyMGRIT**
+
+An independent package for parallel time integration, built around PyMGRIT. My work focuses on the problem interface, solver integration, examples and validation tools. PyMGRIT provides the underlying MGRIT algorithm implementation.
+
+The current examples cover Dahlquist’s test equation and the one-dimensional heat equation. Validation compares the computed solution with sequential execution of the same time integrator. Broader convergence and performance claims require further experiments.
+
+Public repositories and execution instructions will be linked here when these releases are ready.
+
+## Experience
+
+### Sopra Steria
+
+**Data & AI engineering apprenticeship**
+
+Development and maintenance of data pipelines, SQL and Shell automation, reporting migrations, testing and delivery within engineering teams. Technologies used include PySpark, Hive and Oracle-based data systems.
+
+### GIREF, Université Laval
+
+**Research internship · Five months · Québec, Canada**
+
+Development of a black-box component for parallel-in-time computation using MGRIT. The work connected numerical methods with integration into an existing scientific computing environment.
+
+## Technologies
+
+**Data and backend**
+
+![Python](https://img.shields.io/badge/Python-243247?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-243247?style=flat-square)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-243247?style=flat-square&logo=apachespark&logoColor=white)
+![Java](https://img.shields.io/badge/Java-243247?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-243247?style=flat-square&logo=fastapi&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-243247?style=flat-square&logo=gnubash&logoColor=white)
+
+**Scientific computing and interfaces**
+
+![NumPy](https://img.shields.io/badge/NumPy-243247?style=flat-square&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-243247?style=flat-square&logo=scipy&logoColor=white)
+![MPI](https://img.shields.io/badge/MPI-243247?style=flat-square)
+![React](https://img.shields.io/badge/React-243247?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-243247?style=flat-square&logo=typescript&logoColor=white)
+
+## Contact
+
+I’m interested in conversations about data engineering, applied AI and numerical computing.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/myriam-ait-said-a87b23223/)
